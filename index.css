@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1502fa;
+  overflow: hidden;
+}
+/* header */
+.header {
+  display: flex;
+  height: 8%;
+  background-color: #0183fd;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 550;
+  flex: 1;
+}
+.right {
+  display: flex;
+  flex: 1;
+}
+.right_item {
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid #72bcd7;
+  cursor: pointer;
+}
+/* header */
+
+/* content */
+/* home */
+.content_wrap {
+  width: 100%;
+  height: 92%;
+}
+.content {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+.left_content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+  border-radius: 10px;
+}
+.left_content-top {
+  flex: 4;
+  background-color: #d4f23b;
+  border-radius: 10px;
+}
+.left_content-button{
+  flex: 3;
+  margin-top: 10px;
+  background-color: #3b3ef2;
+  border-radius: 10px;
+}
+.left_content-top img, .left_content-button img {
+  width: 100%;
+  height: 100%;
+}
+.right_content {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  height: 100%;
+  margin-left: 15px;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+  background-color: #02befc;
+  border-radius: 10px;
+}
+.right_content-top {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1d2089;
+  border-radius: 10px;
+  color: #d4f23b;
+}
+.right_content-top h3 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+.right_content-top p {
+  font-size: 26px;
+  text-align: center;
+}
+.right_content-bottom {
+  flex: 5;
+  margin: 5px 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.right_content-bottom img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+/* home */
+
+/* tool_and_help */
+.tool_and_help {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.tool_and_help-item {
+  width: 48%;
+  height: 48%;
+  margin: .5% 1%;
+  box-sizing: border-box;
+  background-color: red;
+}
+.tool_and_help-item img {
+  width: 100%;
+  height: 100%;
+}
+/* tool_and_help */
+/* content */
+
+.active {
+  background-color: #d6d5e0;
+}
